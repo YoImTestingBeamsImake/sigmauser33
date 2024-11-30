@@ -1,0 +1,2370 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local External = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Credits = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local RandowUi = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local idk = Instance.new("TextButton")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local Logs = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local PlayerUser = Instance.new("TextLabel")
+local PlayerUser_2 = Instance.new("TextLabel")
+local PlayerUser_3 = Instance.new("TextLabel")
+local PlayerUser_4 = Instance.new("TextLabel")
+local PlayerUser_5 = Instance.new("TextLabel")
+local Profile = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local Title_2 = Instance.new("TextLabel")
+local Status = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local PlayerUser_6 = Instance.new("TextLabel")
+local PlayerUser_7 = Instance.new("TextLabel")
+local PlayerUser_8 = Instance.new("TextLabel")
+local PlayerUser_9 = Instance.new("TextLabel")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local MainFrame = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local HideUi = Instance.new("ImageButton")
+local PlayerUser_10 = Instance.new("TextLabel")
+local ImageButton = Instance.new("ImageButton")
+local PlayerUser_11 = Instance.new("TextLabel")
+local ImageButton_2 = Instance.new("ImageButton")
+local PlayerUser_12 = Instance.new("TextLabel")
+local ImageButton_3 = Instance.new("ImageButton")
+local PlayerUser_13 = Instance.new("TextLabel")
+local PlayerStatus = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local PlayerUser_14 = Instance.new("TextLabel")
+local PlayerUser_15 = Instance.new("TextLabel")
+local Camlock = Instance.new("ImageButton")
+local PlayerUser_16 = Instance.new("TextLabel")
+local logo = Instance.new("ImageLabel")
+local Note = Instance.new("TextLabel")
+local Cframe = Instance.new("ImageButton")
+local PlayerUser_17 = Instance.new("TextLabel")
+local Key = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local UICorner_10 = Instance.new("UICorner")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local test = Instance.new("ImageButton")
+local UICorner_11 = Instance.new("UICorner")
+local PlayerUser_18 = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local CamLockGui = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local MainFrame_2 = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local StatusLabel = Instance.new("TextLabel")
+local SKiibidi = Instance.new("ImageButton")
+local PlayerUser_19 = Instance.new("TextLabel")
+local ApplyPred = Instance.new("ImageButton")
+local PlayerUser_20 = Instance.new("TextLabel")
+local ChangeKey = Instance.new("ImageButton")
+local PlayerUser_21 = Instance.new("TextLabel")
+local wowdobdob = Instance.new("TextBox")
+local PlayerStatus_2 = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local PlayerUser_22 = Instance.new("TextLabel")
+local PlayerUser_23 = Instance.new("TextLabel")
+local ImageButton_4 = Instance.new("ImageButton")
+local PlayerUser_24 = Instance.new("TextLabel")
+local ImageButton_5 = Instance.new("ImageButton")
+local PlayerUser_25 = Instance.new("TextLabel")
+local Streamable = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local MainFrame_3 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local SigmaLabel = Instance.new("TextLabel")
+local Enable = Instance.new("ImageButton")
+local PlayerUser_26 = Instance.new("TextLabel")
+local Applychanges = Instance.new("ImageButton")
+local PlayerUser_27 = Instance.new("TextLabel")
+local Keycheng = Instance.new("ImageButton")
+local PlayerUser_28 = Instance.new("TextLabel")
+local pedophile = Instance.new("TextBox")
+local Smooth = Instance.new("TextBox")
+local PlayerStatus_3 = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local PlayerUser_29 = Instance.new("TextLabel")
+local PlayerUser_30 = Instance.new("TextLabel")
+local CamGo = Instance.new("ImageButton")
+local PlayerUser_31 = Instance.new("TextLabel")
+local ImageButton_6 = Instance.new("ImageButton")
+local PlayerUser_32 = Instance.new("TextLabel")
+local Cframe_2 = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local MainFrame_4 = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local SigmaLabel_2 = Instance.new("TextLabel")
+local Enable_2 = Instance.new("ImageButton")
+local PlayerUser_33 = Instance.new("TextLabel")
+local Applychanges_2 = Instance.new("ImageButton")
+local PlayerUser_34 = Instance.new("TextLabel")
+local pedophile_2 = Instance.new("TextBox")
+local Smooth_2 = Instance.new("TextBox")
+local PlayerStatus_4 = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local PlayerUser_35 = Instance.new("TextLabel")
+local PlayerUser_36 = Instance.new("TextLabel")
+local CamGo_2 = Instance.new("ImageButton")
+local PlayerUser_37 = Instance.new("TextLabel")
+local ImageButton_7 = Instance.new("ImageButton")
+local PlayerUser_38 = Instance.new("TextLabel")
+
+--Properties:
+
+External.Name = "External"
+External.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+External.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = External
+Main.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.145765468, 0, 0.231796116, 0)
+Main.Size = UDim2.new(0, 816, 0, 441)
+Main.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 1)
+UICorner.Parent = Main
+
+Credits.Name = "Credits"
+Credits.Parent = Main
+Credits.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.162990198, 0, 0.891156435, 0)
+Credits.Size = UDim2.new(0, 158, 0, 31)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = ""
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextSize = 14.000
+
+ImageLabel.Parent = Credits
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.405063301, 0, 0, 0)
+ImageLabel.Size = UDim2.new(0, 36, 0, 31)
+ImageLabel.Image = "rbxassetid://82574557036822"
+
+UICorner_2.CornerRadius = UDim.new(0, 1)
+UICorner_2.Parent = Credits
+
+RandowUi.Name = "RandowUi"
+RandowUi.Parent = Main
+RandowUi.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+RandowUi.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RandowUi.BorderSizePixel = 0
+RandowUi.Position = UDim2.new(0.403186262, 0, 0.891156435, 0)
+RandowUi.Size = UDim2.new(0, 158, 0, 31)
+RandowUi.Font = Enum.Font.SourceSans
+RandowUi.Text = " "
+RandowUi.TextColor3 = Color3.fromRGB(0, 0, 0)
+RandowUi.TextSize = 14.000
+
+ImageLabel_2.Parent = RandowUi
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.405063301, 0, 0, 0)
+ImageLabel_2.Size = UDim2.new(0, 36, 0, 31)
+ImageLabel_2.Image = "rbxassetid://82574557036822"
+
+UICorner_3.CornerRadius = UDim.new(0, 1)
+UICorner_3.Parent = RandowUi
+
+idk.Name = "idk"
+idk.Parent = Main
+idk.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+idk.BorderColor3 = Color3.fromRGB(0, 0, 0)
+idk.BorderSizePixel = 0
+idk.Position = UDim2.new(0.645833313, 0, 0.891156435, 0)
+idk.Size = UDim2.new(0, 158, 0, 31)
+idk.Font = Enum.Font.SourceSans
+idk.Text = " "
+idk.TextColor3 = Color3.fromRGB(0, 0, 0)
+idk.TextSize = 14.000
+
+ImageLabel_3.Parent = idk
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.405063301, 0, 0, 0)
+ImageLabel_3.Size = UDim2.new(0, 36, 0, 31)
+ImageLabel_3.Image = "rbxassetid://82574557036822"
+
+UICorner_4.CornerRadius = UDim.new(0, 1)
+UICorner_4.Parent = idk
+
+Logs.Name = "Logs"
+Logs.Parent = Main
+Logs.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Logs.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Logs.BorderSizePixel = 0
+Logs.Position = UDim2.new(0.607843161, 0, 0.448979586, 0)
+Logs.Size = UDim2.new(0, 298, 0, 158)
+
+UICorner_5.CornerRadius = UDim.new(0, 1)
+UICorner_5.Parent = Logs
+
+Title.Name = "Title"
+Title.Parent = Logs
+Title.AnchorPoint = Vector2.new(1, 0.5)
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(2.09963226, 0, 0.0899436772, 0)
+Title.Size = UDim2.new(1.66243625, 0, 0.0993974432, 0)
+Title.Font = Enum.Font.GothamBold
+Title.Text = "Logs"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+Title.TextXAlignment = Enum.TextXAlignment.Left
+
+PlayerUser.Name = "PlayerUser"
+PlayerUser.Parent = Logs
+PlayerUser.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser.BackgroundTransparency = 1.000
+PlayerUser.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser.BorderSizePixel = 0
+PlayerUser.Position = UDim2.new(1.76406181, 0, 0.22918418, 0)
+PlayerUser.Size = UDim2.new(1.66243625, 0, 0.0740809813, 0)
+PlayerUser.Font = Enum.Font.GothamBold
+PlayerUser.Text = "[+] disocrd.gg/HalloweenStudios"
+PlayerUser.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser.TextScaled = true
+PlayerUser.TextSize = 14.000
+PlayerUser.TextWrapped = true
+PlayerUser.TextXAlignment = Enum.TextXAlignment.Left
+
+PlayerUser_2.Name = "PlayerUser"
+PlayerUser_2.Parent = Logs
+PlayerUser_2.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_2.BackgroundTransparency = 1.000
+PlayerUser_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_2.BorderSizePixel = 0
+PlayerUser_2.Position = UDim2.new(1.76406181, 0, 0.298804432, 0)
+PlayerUser_2.Size = UDim2.new(1.66243625, 0, 0.0740809813, 0)
+PlayerUser_2.Font = Enum.Font.GothamBold
+PlayerUser_2.Text = "[+] Meta.cc Loading..."
+PlayerUser_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_2.TextScaled = true
+PlayerUser_2.TextSize = 14.000
+PlayerUser_2.TextWrapped = true
+PlayerUser_2.TextXAlignment = Enum.TextXAlignment.Left
+
+PlayerUser_3.Name = "PlayerUser"
+PlayerUser_3.Parent = Logs
+PlayerUser_3.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_3.BackgroundTransparency = 1.000
+PlayerUser_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_3.BorderSizePixel = 0
+PlayerUser_3.Position = UDim2.new(1.76406181, 0, 0.368424684, 0)
+PlayerUser_3.Size = UDim2.new(1.66243625, 0, 0.0740809813, 0)
+PlayerUser_3.Font = Enum.Font.GothamBold
+PlayerUser_3.Text = "[+] Loaded"
+PlayerUser_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_3.TextScaled = true
+PlayerUser_3.TextSize = 14.000
+PlayerUser_3.TextWrapped = true
+PlayerUser_3.TextXAlignment = Enum.TextXAlignment.Left
+
+PlayerUser_4.Name = "PlayerUser"
+PlayerUser_4.Parent = Logs
+PlayerUser_4.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_4.BackgroundTransparency = 1.000
+PlayerUser_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_4.BorderSizePixel = 0
+PlayerUser_4.Position = UDim2.new(1.76406181, 0, 0.438044935, 0)
+PlayerUser_4.Size = UDim2.new(1.66243625, 0, 0.0740809813, 0)
+PlayerUser_4.Font = Enum.Font.GothamBold
+PlayerUser_4.Text = "[+] Meta.cc Loading..."
+PlayerUser_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_4.TextScaled = true
+PlayerUser_4.TextSize = 14.000
+PlayerUser_4.TextWrapped = true
+PlayerUser_4.TextXAlignment = Enum.TextXAlignment.Left
+
+PlayerUser_5.Name = "PlayerUser"
+PlayerUser_5.Parent = Logs
+PlayerUser_5.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_5.BackgroundTransparency = 1.000
+PlayerUser_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_5.BorderSizePixel = 0
+PlayerUser_5.Position = UDim2.new(1.76406181, 0, 0.507665157, 0)
+PlayerUser_5.Size = UDim2.new(1.66243625, 0, 0.0740809813, 0)
+PlayerUser_5.Font = Enum.Font.GothamBold
+PlayerUser_5.Text = "[+] Ready To Lock"
+PlayerUser_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_5.TextScaled = true
+PlayerUser_5.TextSize = 14.000
+PlayerUser_5.TextWrapped = true
+PlayerUser_5.TextXAlignment = Enum.TextXAlignment.Left
+
+Profile.Name = "Profile"
+Profile.Parent = Main
+Profile.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Profile.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Profile.BorderSizePixel = 0
+Profile.Position = UDim2.new(0.607843161, 0, 0.0362811796, 0)
+Profile.Size = UDim2.new(0, 298, 0, 158)
+
+UICorner_6.CornerRadius = UDim.new(0, 1)
+UICorner_6.Parent = Profile
+
+Title_2.Name = "Title"
+Title_2.Parent = Profile
+Title_2.AnchorPoint = Vector2.new(1, 0.5)
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title_2.BorderSizePixel = 0
+Title_2.Position = UDim2.new(2.09963226, 0, 0.0899436772, 0)
+Title_2.Size = UDim2.new(1.66243625, 0, 0.0993974432, 0)
+Title_2.Font = Enum.Font.GothamBold
+Title_2.Text = "Profile"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextScaled = true
+Title_2.TextSize = 14.000
+Title_2.TextWrapped = true
+Title_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Status.Name = "Status"
+Status.Parent = Profile
+Status.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Status.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Status.BorderSizePixel = 0
+Status.Position = UDim2.new(0.392617464, 0, 0.215189874, 0)
+Status.Size = UDim2.new(0, 167, 0, 100)
+
+UICorner_7.CornerRadius = UDim.new(0, 1)
+UICorner_7.Parent = Status
+
+PlayerUser_6.Name = "PlayerUser"
+PlayerUser_6.Parent = Status
+PlayerUser_6.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_6.BackgroundTransparency = 1.000
+PlayerUser_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_6.BorderSizePixel = 0
+PlayerUser_6.Position = UDim2.new(2.0155592, 0, 0.110062189, 0)
+PlayerUser_6.Size = UDim2.new(1.66243613, 0, 0.15887621, 0)
+PlayerUser_6.Font = Enum.Font.GothamBold
+PlayerUser_6.Text = "32V75"
+PlayerUser_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_6.TextScaled = true
+PlayerUser_6.TextSize = 14.000
+PlayerUser_6.TextWrapped = true
+PlayerUser_6.TextXAlignment = Enum.TextXAlignment.Left
+
+PlayerUser_7.Name = "PlayerUser"
+PlayerUser_7.Parent = Status
+PlayerUser_7.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_7.BackgroundTransparency = 1.000
+PlayerUser_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_7.BorderSizePixel = 0
+PlayerUser_7.Position = UDim2.new(1.91975081, 0, 0.855062187, 0)
+PlayerUser_7.Size = UDim2.new(1.66243613, 0, 0.108876139, 0)
+PlayerUser_7.Font = Enum.Font.GothamBold
+PlayerUser_7.Text = ".gg/xencustoms"
+PlayerUser_7.TextColor3 = Color3.fromRGB(0, 255, 21)
+PlayerUser_7.TextScaled = true
+PlayerUser_7.TextSize = 14.000
+PlayerUser_7.TextTransparency = 0.300
+PlayerUser_7.TextWrapped = true
+PlayerUser_7.TextXAlignment = Enum.TextXAlignment.Left
+
+PlayerUser_8.Name = "PlayerUser"
+PlayerUser_8.Parent = Status
+PlayerUser_8.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_8.BackgroundTransparency = 1.000
+PlayerUser_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_8.BorderSizePixel = 0
+PlayerUser_8.Position = UDim2.new(1.74011016, 0, 0.325311691, 0)
+PlayerUser_8.Size = UDim2.new(1.66243613, 0, 0.109375857, 0)
+PlayerUser_8.Font = Enum.Font.GothamBold
+PlayerUser_8.Text = "Player Has Locked Before"
+PlayerUser_8.TextColor3 = Color3.fromRGB(0, 255, 21)
+PlayerUser_8.TextScaled = true
+PlayerUser_8.TextSize = 14.000
+PlayerUser_8.TextTransparency = 0.300
+PlayerUser_8.TextWrapped = true
+PlayerUser_8.TextXAlignment = Enum.TextXAlignment.Left
+
+PlayerUser_9.Name = "PlayerUser"
+PlayerUser_9.Parent = Status
+PlayerUser_9.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_9.BackgroundTransparency = 1.000
+PlayerUser_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_9.BorderSizePixel = 0
+PlayerUser_9.Position = UDim2.new(1.74011016, 0, 0.425311685, 0)
+PlayerUser_9.Size = UDim2.new(1.66243613, 0, 0.109375857, 0)
+PlayerUser_9.Font = Enum.Font.GothamBold
+PlayerUser_9.Text = "Welcome to the P Diddy Party"
+PlayerUser_9.TextColor3 = Color3.fromRGB(0, 255, 21)
+PlayerUser_9.TextScaled = true
+PlayerUser_9.TextSize = 14.000
+PlayerUser_9.TextTransparency = 0.300
+PlayerUser_9.TextWrapped = true
+PlayerUser_9.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageLabel_4.Parent = Profile
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(-0.09380202, 0, 0.17088607, 0)
+ImageLabel_4.Size = UDim2.new(0, 175, 0, 104)
+ImageLabel_4.Image = "rbxassetid://101242553645272"
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Main
+MainFrame.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.0379901975, 0, 0.199546486, 0)
+MainFrame.Size = UDim2.new(0, 438, 0, 268)
+
+UICorner_8.CornerRadius = UDim.new(0, 1)
+UICorner_8.Parent = MainFrame
+
+HideUi.Name = "HideUi"
+HideUi.Parent = MainFrame
+HideUi.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+HideUi.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HideUi.BorderSizePixel = 0
+HideUi.Position = UDim2.new(0.0480525047, 0, 0.543831468, 0)
+HideUi.Size = UDim2.new(0, 376, 0, 50)
+
+PlayerUser_10.Name = "PlayerUser"
+PlayerUser_10.Parent = HideUi
+PlayerUser_10.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_10.BackgroundTransparency = 1.000
+PlayerUser_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_10.BorderSizePixel = 0
+PlayerUser_10.Position = UDim2.new(1.72410727, 0, 0.534903705, 0)
+PlayerUser_10.Size = UDim2.new(1.66243637, 0, -0.384905666, 0)
+PlayerUser_10.Font = Enum.Font.GothamBold
+PlayerUser_10.Text = "HideUi"
+PlayerUser_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_10.TextScaled = true
+PlayerUser_10.TextSize = 14.000
+PlayerUser_10.TextWrapped = true
+PlayerUser_10.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageButton.Parent = MainFrame
+ImageButton.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.678189516, 0, 0.60353291, 0)
+ImageButton.Size = UDim2.new(0, 116, 0, 50)
+ImageButton.Visible = false
+
+PlayerUser_11.Name = "PlayerUser"
+PlayerUser_11.Parent = ImageButton
+PlayerUser_11.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_11.BackgroundTransparency = 1.000
+PlayerUser_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_11.BorderSizePixel = 0
+PlayerUser_11.Position = UDim2.new(1.74006474, 0, 0.474903703, 0)
+PlayerUser_11.Size = UDim2.new(1.66243637, 0, -0.384905666, 0)
+PlayerUser_11.Font = Enum.Font.GothamBold
+PlayerUser_11.Text = "!Say"
+PlayerUser_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_11.TextScaled = true
+PlayerUser_11.TextSize = 14.000
+PlayerUser_11.TextWrapped = true
+PlayerUser_11.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageButton_2.Parent = MainFrame
+ImageButton_2.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+ImageButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_2.BorderSizePixel = 0
+ImageButton_2.Position = UDim2.new(0.0471177474, 0, 0.595786929, 0)
+ImageButton_2.Size = UDim2.new(0, 116, 0, 50)
+ImageButton_2.Visible = false
+
+PlayerUser_12.Name = "PlayerUser"
+PlayerUser_12.Parent = ImageButton_2
+PlayerUser_12.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_12.BackgroundTransparency = 1.000
+PlayerUser_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_12.BorderSizePixel = 0
+PlayerUser_12.Position = UDim2.new(1.74006474, 0, 0.494903713, 0)
+PlayerUser_12.Size = UDim2.new(1.66243637, 0, -0.424905688, 0)
+PlayerUser_12.Font = Enum.Font.GothamBold
+PlayerUser_12.Text = "Semi Lock"
+PlayerUser_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_12.TextScaled = true
+PlayerUser_12.TextSize = 14.000
+PlayerUser_12.TextWrapped = true
+PlayerUser_12.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageButton_3.Parent = MainFrame
+ImageButton_3.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+ImageButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_3.BorderSizePixel = 0
+ImageButton_3.Position = UDim2.new(0.679537833, 0, 0.073682189, 0)
+ImageButton_3.Size = UDim2.new(0, 116, 0, 50)
+ImageButton_3.Visible = false
+
+PlayerUser_13.Name = "PlayerUser"
+PlayerUser_13.Parent = ImageButton_3
+PlayerUser_13.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_13.BackgroundTransparency = 1.000
+PlayerUser_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_13.BorderSizePixel = 0
+PlayerUser_13.Position = UDim2.new(1.74006474, 0, 0.474903703, 0)
+PlayerUser_13.Size = UDim2.new(1.66243637, 0, -0.384905666, 0)
+PlayerUser_13.Font = Enum.Font.GothamBold
+PlayerUser_13.Text = "Fly"
+PlayerUser_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_13.TextScaled = true
+PlayerUser_13.TextSize = 14.000
+PlayerUser_13.TextWrapped = true
+PlayerUser_13.TextXAlignment = Enum.TextXAlignment.Left
+
+PlayerStatus.Name = "PlayerStatus"
+PlayerStatus.Parent = Main
+PlayerStatus.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+PlayerStatus.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerStatus.BorderSizePixel = 0
+PlayerStatus.Position = UDim2.new(0.0379901975, 0, 0.0362811796, 0)
+PlayerStatus.Size = UDim2.new(0, 438, 0, 52)
+
+UICorner_9.CornerRadius = UDim.new(0, 1)
+UICorner_9.Parent = PlayerStatus
+
+PlayerUser_14.Name = "PlayerUser"
+PlayerUser_14.Parent = Main
+PlayerUser_14.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_14.BackgroundTransparency = 1.000
+PlayerUser_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_14.BorderSizePixel = 0
+PlayerUser_14.Position = UDim2.new(1.90385795, 0, 0.094902195, 0)
+PlayerUser_14.Size = UDim2.new(1.66243637, 0, 0.0550935715, 0)
+PlayerUser_14.Font = Enum.Font.GothamBold
+PlayerUser_14.Text = "Meta.lol"
+PlayerUser_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_14.TextScaled = true
+PlayerUser_14.TextSize = 14.000
+PlayerUser_14.TextWrapped = true
+PlayerUser_14.TextXAlignment = Enum.TextXAlignment.Left
+
+PlayerUser_15.Name = "PlayerUser"
+PlayerUser_15.Parent = Main
+PlayerUser_15.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_15.BackgroundTransparency = 1.000
+PlayerUser_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_15.BorderSizePixel = 0
+PlayerUser_15.Position = UDim2.new(1.91733837, 0, 0.13458474, 0)
+PlayerUser_15.Size = UDim2.new(1.66243637, 0, 0.0392205566, 0)
+PlayerUser_15.Font = Enum.Font.GothamBold
+PlayerUser_15.Text = "ACTIVE"
+PlayerUser_15.TextColor3 = Color3.fromRGB(0, 255, 21)
+PlayerUser_15.TextScaled = true
+PlayerUser_15.TextSize = 14.000
+PlayerUser_15.TextTransparency = 0.300
+PlayerUser_15.TextWrapped = true
+PlayerUser_15.TextXAlignment = Enum.TextXAlignment.Left
+
+Camlock.Name = "Camlock"
+Camlock.Parent = Main
+Camlock.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Camlock.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Camlock.BorderSizePixel = 0
+Camlock.Position = UDim2.new(0.0637831613, 0, 0.24006483, 0)
+Camlock.Size = UDim2.new(0, 376, 0, 50)
+
+PlayerUser_16.Name = "PlayerUser"
+PlayerUser_16.Parent = Camlock
+PlayerUser_16.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_16.BackgroundTransparency = 1.000
+PlayerUser_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_16.BorderSizePixel = 0
+PlayerUser_16.Position = UDim2.new(1.72539115, 0, 0.494903713, 0)
+PlayerUser_16.Size = UDim2.new(1.66243637, 0, -0.424905688, 0)
+PlayerUser_16.Font = Enum.Font.GothamBold
+PlayerUser_16.Text = "Cam Lock"
+PlayerUser_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_16.TextScaled = true
+PlayerUser_16.TextSize = 14.000
+PlayerUser_16.TextWrapped = true
+PlayerUser_16.TextXAlignment = Enum.TextXAlignment.Left
+
+logo.Name = "logo"
+logo.Parent = Main
+logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+logo.BackgroundTransparency = 1.000
+logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+logo.BorderSizePixel = 0
+logo.Position = UDim2.new(0.0183823537, 0, 0.834467113, 0)
+logo.Size = UDim2.new(0, 100, 0, 65)
+logo.Image = "rbxassetid://103158301006067"
+
+Note.Name = "Note"
+Note.Parent = Main
+Note.AnchorPoint = Vector2.new(1, 0.5)
+Note.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Note.BackgroundTransparency = 1.000
+Note.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Note.BorderSizePixel = 0
+Note.Position = UDim2.new(2.01905394, 0, 1.06542373, 0)
+Note.Size = UDim2.new(1.66243637, 0, 0.0324178301, 0)
+Note.Visible = false
+Note.Font = Enum.Font.GothamBold
+Note.Text = "[+] Keep Locking kid this ain't working "
+Note.TextColor3 = Color3.fromRGB(255, 255, 255)
+Note.TextScaled = true
+Note.TextSize = 14.000
+Note.TextWrapped = true
+Note.TextXAlignment = Enum.TextXAlignment.Left
+
+Cframe.Name = "Cframe"
+Cframe.Parent = Main
+Cframe.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Cframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cframe.BorderSizePixel = 0
+Cframe.Position = UDim2.new(0.0627583861, 0, 0.384390563, 0)
+Cframe.Size = UDim2.new(0, 376, 0, 50)
+
+PlayerUser_17.Name = "PlayerUser"
+PlayerUser_17.Parent = Cframe
+PlayerUser_17.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_17.BackgroundTransparency = 1.000
+PlayerUser_17.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_17.BorderSizePixel = 0
+PlayerUser_17.Position = UDim2.new(1.71612871, 0, 0.494903713, 0)
+PlayerUser_17.Size = UDim2.new(1.66243637, 0, -0.384905666, 0)
+PlayerUser_17.Font = Enum.Font.GothamBold
+PlayerUser_17.Text = "CFrame"
+PlayerUser_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_17.TextScaled = true
+PlayerUser_17.TextSize = 14.000
+PlayerUser_17.TextWrapped = true
+PlayerUser_17.TextXAlignment = Enum.TextXAlignment.Left
+
+Key.Name = "Key"
+Key.Parent = External
+Key.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Key.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Key.BorderSizePixel = 0
+Key.Position = UDim2.new(0.366780102, 0, 0.303582132, 0)
+Key.Size = UDim2.new(0, 370, 0, 187)
+Key.Visible = false
+
+TextBox.Parent = Key
+TextBox.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.048648648, 0, 0.406417102, 0)
+TextBox.Size = UDim2.new(0, 200, 0, 50)
+TextBox.Font = Enum.Font.GothamBold
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+
+UICorner_10.CornerRadius = UDim.new(0, 1)
+UICorner_10.Parent = TextBox
+
+ImageLabel_5.Parent = Key
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0.167567566, 0, -0.614973247, 0)
+ImageLabel_5.Size = UDim2.new(0, 246, 0, 228)
+ImageLabel_5.Image = "rbxassetid://103158301006067"
+
+test.Name = "test"
+test.Parent = Key
+test.BackgroundColor3 = Color3.fromRGB(38, 255, 0)
+test.BorderColor3 = Color3.fromRGB(0, 0, 0)
+test.BorderSizePixel = 0
+test.Position = UDim2.new(0.663473248, 0, 0.406214416, 0)
+test.Size = UDim2.new(0, 104, 0, 50)
+
+UICorner_11.CornerRadius = UDim.new(0, 1)
+UICorner_11.Parent = test
+
+PlayerUser_18.Name = "PlayerUser"
+PlayerUser_18.Parent = test
+PlayerUser_18.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_18.BackgroundTransparency = 1.000
+PlayerUser_18.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_18.BorderSizePixel = 0
+PlayerUser_18.Position = UDim2.new(0.890110493, 0, 0.480866253, 0)
+PlayerUser_18.Size = UDim2.new(0.782435894, 0, 0.553820968, 0)
+PlayerUser_18.Font = Enum.Font.GothamBold
+PlayerUser_18.Text = "ENTER"
+PlayerUser_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+PlayerUser_18.TextScaled = true
+PlayerUser_18.TextSize = 14.000
+PlayerUser_18.TextTransparency = 0.300
+PlayerUser_18.TextWrapped = true
+PlayerUser_18.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_12.CornerRadius = UDim.new(0, 1)
+UICorner_12.Parent = Key
+
+CamLockGui.Name = "CamLockGui"
+CamLockGui.Parent = External
+CamLockGui.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+CamLockGui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CamLockGui.BorderSizePixel = 0
+CamLockGui.Position = UDim2.new(0.565960884, 0, 0.331387788, 0)
+CamLockGui.Size = UDim2.new(0, 472, 0, 362)
+CamLockGui.Visible = false
+
+UICorner_13.CornerRadius = UDim.new(0, 1)
+UICorner_13.Parent = CamLockGui
+
+MainFrame_2.Name = "MainFrame"
+MainFrame_2.Parent = CamLockGui
+MainFrame_2.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+MainFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame_2.BorderSizePixel = 0
+MainFrame_2.Position = UDim2.new(0.0379901975, 0, 0.199546486, 0)
+MainFrame_2.Size = UDim2.new(0, 438, 0, 268)
+
+UICorner_14.CornerRadius = UDim.new(0, 1)
+UICorner_14.Parent = MainFrame_2
+
+StatusLabel.Name = "StatusLabel"
+StatusLabel.Parent = MainFrame_2
+StatusLabel.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+StatusLabel.BorderColor3 = Color3.fromRGB(157, 157, 157)
+StatusLabel.BorderSizePixel = 0
+StatusLabel.Position = UDim2.new(0.0479452051, 0, 0.50373137, 0)
+StatusLabel.Size = UDim2.new(0, 403, 0, 50)
+StatusLabel.Font = Enum.Font.GothamBold
+StatusLabel.Text = "Camlock status:"
+StatusLabel.TextColor3 = Color3.fromRGB(225, 225, 225)
+StatusLabel.TextSize = 20.000
+
+SKiibidi.Name = "SKiibidi"
+SKiibidi.Parent = MainFrame_2
+SKiibidi.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+SKiibidi.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SKiibidi.BorderSizePixel = 0
+SKiibidi.Position = UDim2.new(0.0469798259, 0, 0.0432174467, 0)
+SKiibidi.Size = UDim2.new(0, 181, 0, 50)
+
+PlayerUser_19.Name = "PlayerUser"
+PlayerUser_19.Parent = SKiibidi
+PlayerUser_19.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_19.BackgroundTransparency = 1.000
+PlayerUser_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_19.BorderSizePixel = 0
+PlayerUser_19.Position = UDim2.new(1.74006474, 0, 0.494903713, 0)
+PlayerUser_19.Size = UDim2.new(1.66243637, 0, -0.424905688, 0)
+PlayerUser_19.Font = Enum.Font.GothamBold
+PlayerUser_19.Text = "Cam Lock"
+PlayerUser_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_19.TextScaled = true
+PlayerUser_19.TextSize = 14.000
+PlayerUser_19.TextWrapped = true
+PlayerUser_19.TextXAlignment = Enum.TextXAlignment.Left
+
+ApplyPred.Name = "ApplyPred"
+ApplyPred.Parent = MainFrame_2
+ApplyPred.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+ApplyPred.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ApplyPred.BorderSizePixel = 0
+ApplyPred.Position = UDim2.new(0.510102034, 0, 0.260249346, 0)
+ApplyPred.Size = UDim2.new(0, 194, 0, 50)
+
+PlayerUser_20.Name = "PlayerUser"
+PlayerUser_20.Parent = ApplyPred
+PlayerUser_20.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_20.BackgroundTransparency = 1.000
+PlayerUser_20.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_20.BorderSizePixel = 0
+PlayerUser_20.Position = UDim2.new(1.70841908, 0, 0.514903724, 0)
+PlayerUser_20.Size = UDim2.new(1.66243637, 0, -0.384905666, 0)
+PlayerUser_20.Font = Enum.Font.GothamBold
+PlayerUser_20.Text = "Apply Prediction"
+PlayerUser_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_20.TextScaled = true
+PlayerUser_20.TextSize = 14.000
+PlayerUser_20.TextWrapped = true
+PlayerUser_20.TextXAlignment = Enum.TextXAlignment.Left
+
+ChangeKey.Name = "ChangeKey"
+ChangeKey.Parent = MainFrame_2
+ChangeKey.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+ChangeKey.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ChangeKey.BorderSizePixel = 0
+ChangeKey.Position = UDim2.new(0.507956862, 0, 0.032023415, 0)
+ChangeKey.Size = UDim2.new(0, 195, 0, 50)
+
+PlayerUser_21.Name = "PlayerUser"
+PlayerUser_21.Parent = ChangeKey
+PlayerUser_21.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_21.BackgroundTransparency = 1.000
+PlayerUser_21.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_21.BorderSizePixel = 0
+PlayerUser_21.Position = UDim2.new(1.74006474, 0, 0.494903713, 0)
+PlayerUser_21.Size = UDim2.new(1.66243637, 0, -0.424905688, 0)
+PlayerUser_21.Font = Enum.Font.GothamBold
+PlayerUser_21.Text = "Key"
+PlayerUser_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_21.TextScaled = true
+PlayerUser_21.TextSize = 14.000
+PlayerUser_21.TextWrapped = true
+PlayerUser_21.TextXAlignment = Enum.TextXAlignment.Left
+
+wowdobdob.Name = "wowdobdob"
+wowdobdob.Parent = MainFrame_2
+wowdobdob.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+wowdobdob.BorderColor3 = Color3.fromRGB(0, 0, 0)
+wowdobdob.BorderSizePixel = 0
+wowdobdob.Position = UDim2.new(0.0479452051, 0, 0.262373954, 0)
+wowdobdob.Size = UDim2.new(0, 179, 0, 50)
+wowdobdob.Font = Enum.Font.SourceSansBold
+wowdobdob.Text = ""
+wowdobdob.TextColor3 = Color3.fromRGB(152, 152, 152)
+wowdobdob.TextSize = 14.000
+
+PlayerStatus_2.Name = "PlayerStatus"
+PlayerStatus_2.Parent = CamLockGui
+PlayerStatus_2.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+PlayerStatus_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerStatus_2.BorderSizePixel = 0
+PlayerStatus_2.Position = UDim2.new(0.0379901975, 0, 0.0362811796, 0)
+PlayerStatus_2.Size = UDim2.new(0, 438, 0, 52)
+
+UICorner_15.CornerRadius = UDim.new(0, 1)
+UICorner_15.Parent = PlayerStatus_2
+
+PlayerUser_22.Name = "PlayerUser"
+PlayerUser_22.Parent = CamLockGui
+PlayerUser_22.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_22.BackgroundTransparency = 1.000
+PlayerUser_22.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_22.BorderSizePixel = 0
+PlayerUser_22.Position = UDim2.new(2.07123089, 0, 0.105951838, 0)
+PlayerUser_22.Size = UDim2.new(1.66243637, 0, 0.0550935715, 0)
+PlayerUser_22.Font = Enum.Font.GothamBold
+PlayerUser_22.Text = "Meta.lol"
+PlayerUser_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_22.TextScaled = true
+PlayerUser_22.TextSize = 14.000
+PlayerUser_22.TextWrapped = true
+PlayerUser_22.TextXAlignment = Enum.TextXAlignment.Left
+
+PlayerUser_23.Name = "PlayerUser"
+PlayerUser_23.Parent = CamLockGui
+PlayerUser_23.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_23.BackgroundTransparency = 1.000
+PlayerUser_23.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_23.BorderSizePixel = 0
+PlayerUser_23.Position = UDim2.new(2.08894873, 0, 0.159446627, 0)
+PlayerUser_23.Size = UDim2.new(1.66243637, 0, 0.0392205566, 0)
+PlayerUser_23.Font = Enum.Font.GothamBold
+PlayerUser_23.Text = "ACTIVE"
+PlayerUser_23.TextColor3 = Color3.fromRGB(0, 255, 21)
+PlayerUser_23.TextScaled = true
+PlayerUser_23.TextSize = 14.000
+PlayerUser_23.TextTransparency = 0.300
+PlayerUser_23.TextWrapped = true
+PlayerUser_23.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageButton_4.Parent = CamLockGui
+ImageButton_4.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+ImageButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_4.BorderSizePixel = 0
+ImageButton_4.Position = UDim2.new(0.0852533132, 0, 0.776004612, 0)
+ImageButton_4.Size = UDim2.new(0, 116, 0, 50)
+
+PlayerUser_24.Name = "PlayerUser"
+PlayerUser_24.Parent = ImageButton_4
+PlayerUser_24.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_24.BackgroundTransparency = 1.000
+PlayerUser_24.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_24.BorderSizePixel = 0
+PlayerUser_24.Position = UDim2.new(1.74868488, 0, 0.494903713, 0)
+PlayerUser_24.Size = UDim2.new(1.66243637, 0, -0.424905688, 0)
+PlayerUser_24.Font = Enum.Font.GothamBold
+PlayerUser_24.Text = "Semi Lock"
+PlayerUser_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_24.TextScaled = true
+PlayerUser_24.TextSize = 14.000
+PlayerUser_24.TextWrapped = true
+PlayerUser_24.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageButton_5.Parent = CamLockGui
+ImageButton_5.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+ImageButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_5.BorderSizePixel = 0
+ImageButton_5.Position = UDim2.new(0.678189516, 0, 0.786368728, 0)
+ImageButton_5.Size = UDim2.new(0, 116, 0, 50)
+
+PlayerUser_25.Name = "PlayerUser"
+PlayerUser_25.Parent = ImageButton_5
+PlayerUser_25.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_25.BackgroundTransparency = 1.000
+PlayerUser_25.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_25.BorderSizePixel = 0
+PlayerUser_25.Position = UDim2.new(1.74006474, 0, 0.474903703, 0)
+PlayerUser_25.Size = UDim2.new(1.66243637, 0, -0.384905666, 0)
+PlayerUser_25.Font = Enum.Font.GothamBold
+PlayerUser_25.Text = "Home"
+PlayerUser_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_25.TextScaled = true
+PlayerUser_25.TextSize = 14.000
+PlayerUser_25.TextWrapped = true
+PlayerUser_25.TextXAlignment = Enum.TextXAlignment.Left
+
+Streamable.Name = "Streamable"
+Streamable.Parent = External
+Streamable.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Streamable.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Streamable.BorderSizePixel = 0
+Streamable.Position = UDim2.new(0.605885983, 0, 0.218374237, 0)
+Streamable.Size = UDim2.new(0, 474, 0, 400)
+Streamable.Visible = false
+
+UICorner_16.CornerRadius = UDim.new(0, 1)
+UICorner_16.Parent = Streamable
+
+MainFrame_3.Name = "MainFrame"
+MainFrame_3.Parent = Streamable
+MainFrame_3.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+MainFrame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame_3.BorderSizePixel = 0
+MainFrame_3.Position = UDim2.new(0.0370048173, 0, 0.167387545, 0)
+MainFrame_3.Size = UDim2.new(0, 438, 0, 319)
+
+UICorner_17.CornerRadius = UDim.new(0, 1)
+UICorner_17.Parent = MainFrame_3
+
+SigmaLabel.Name = "SigmaLabel"
+SigmaLabel.Parent = MainFrame_3
+SigmaLabel.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+SigmaLabel.BorderColor3 = Color3.fromRGB(157, 157, 157)
+SigmaLabel.BorderSizePixel = 0
+SigmaLabel.Position = UDim2.new(0.0365296789, 0, 0.596049607, 0)
+SigmaLabel.Size = UDim2.new(0, 403, 0, 50)
+SigmaLabel.Font = Enum.Font.GothamBold
+SigmaLabel.Text = "Camlock status:"
+SigmaLabel.TextColor3 = Color3.fromRGB(225, 225, 225)
+SigmaLabel.TextSize = 20.000
+
+Enable.Name = "Enable"
+Enable.Parent = MainFrame_3
+Enable.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Enable.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Enable.BorderSizePixel = 0
+Enable.Position = UDim2.new(0.0469798259, 0, 0.0432174467, 0)
+Enable.Size = UDim2.new(0, 181, 0, 50)
+
+PlayerUser_26.Name = "PlayerUser"
+PlayerUser_26.Parent = Enable
+PlayerUser_26.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_26.BackgroundTransparency = 1.000
+PlayerUser_26.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_26.BorderSizePixel = 0
+PlayerUser_26.Position = UDim2.new(1.74006474, 0, 0.494903713, 0)
+PlayerUser_26.Size = UDim2.new(1.66243637, 0, -0.424905688, 0)
+PlayerUser_26.Font = Enum.Font.GothamBold
+PlayerUser_26.Text = "Streamable"
+PlayerUser_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_26.TextScaled = true
+PlayerUser_26.TextSize = 14.000
+PlayerUser_26.TextWrapped = true
+PlayerUser_26.TextXAlignment = Enum.TextXAlignment.Left
+
+Applychanges.Name = "Applychanges"
+Applychanges.Parent = MainFrame_3
+Applychanges.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Applychanges.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Applychanges.BorderSizePixel = 0
+Applychanges.Position = UDim2.new(0.496403396, 0, 0.244801134, 0)
+Applychanges.Size = UDim2.new(0, 194, 0, 50)
+
+PlayerUser_27.Name = "PlayerUser"
+PlayerUser_27.Parent = Applychanges
+PlayerUser_27.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_27.BackgroundTransparency = 1.000
+PlayerUser_27.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_27.BorderSizePixel = 0
+PlayerUser_27.Position = UDim2.new(1.7496556, 0, 0.494903713, 0)
+PlayerUser_27.Size = UDim2.new(1.66243637, 0, -0.384905666, 0)
+PlayerUser_27.Font = Enum.Font.GothamBold
+PlayerUser_27.Text = "Apply Changes"
+PlayerUser_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_27.TextScaled = true
+PlayerUser_27.TextSize = 14.000
+PlayerUser_27.TextWrapped = true
+PlayerUser_27.TextXAlignment = Enum.TextXAlignment.Left
+
+Keycheng.Name = "Keycheng"
+Keycheng.Parent = MainFrame_3
+Keycheng.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Keycheng.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Keycheng.BorderSizePixel = 0
+Keycheng.Position = UDim2.new(0.496541351, 0, 0.0420234166, 0)
+Keycheng.Size = UDim2.new(0, 195, 0, 50)
+
+PlayerUser_28.Name = "PlayerUser"
+PlayerUser_28.Parent = Keycheng
+PlayerUser_28.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_28.BackgroundTransparency = 1.000
+PlayerUser_28.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_28.BorderSizePixel = 0
+PlayerUser_28.Position = UDim2.new(1.74006474, 0, 0.494903713, 0)
+PlayerUser_28.Size = UDim2.new(1.66243637, 0, -0.424905688, 0)
+PlayerUser_28.Font = Enum.Font.GothamBold
+PlayerUser_28.Text = "Key"
+PlayerUser_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_28.TextScaled = true
+PlayerUser_28.TextSize = 14.000
+PlayerUser_28.TextWrapped = true
+PlayerUser_28.TextXAlignment = Enum.TextXAlignment.Left
+
+pedophile.Name = "pedophile"
+pedophile.Parent = MainFrame_3
+pedophile.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+pedophile.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pedophile.BorderSizePixel = 0
+pedophile.Position = UDim2.new(0.0479452051, 0, 0.232373968, 0)
+pedophile.Size = UDim2.new(0, 179, 0, 50)
+pedophile.Font = Enum.Font.SourceSansBold
+pedophile.Text = "Prediction"
+pedophile.TextColor3 = Color3.fromRGB(152, 152, 152)
+pedophile.TextSize = 14.000
+
+Smooth.Name = "Smooth"
+Smooth.Parent = MainFrame_3
+Smooth.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Smooth.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Smooth.BorderSizePixel = 0
+Smooth.Position = UDim2.new(0.287671238, 0, 0.424680978, 0)
+Smooth.Size = UDim2.new(0, 179, 0, 46)
+Smooth.Font = Enum.Font.SourceSansBold
+Smooth.Text = "smoothness"
+Smooth.TextColor3 = Color3.fromRGB(152, 152, 152)
+Smooth.TextSize = 14.000
+
+PlayerStatus_3.Name = "PlayerStatus"
+PlayerStatus_3.Parent = Streamable
+PlayerStatus_3.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+PlayerStatus_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerStatus_3.BorderSizePixel = 0
+PlayerStatus_3.Position = UDim2.new(0.0348952413, 0, 0.0224690307, 0)
+PlayerStatus_3.Size = UDim2.new(0, 438, 0, 52)
+
+UICorner_18.CornerRadius = UDim.new(0, 1)
+UICorner_18.Parent = PlayerStatus_3
+
+PlayerUser_29.Name = "PlayerUser"
+PlayerUser_29.Parent = Streamable
+PlayerUser_29.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_29.BackgroundTransparency = 1.000
+PlayerUser_29.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_29.BorderSizePixel = 0
+PlayerUser_29.Position = UDim2.new(2.0818572, 0, 0.0932101607, 0)
+PlayerUser_29.Size = UDim2.new(1.66243637, 0, 0.0550935715, 0)
+PlayerUser_29.Font = Enum.Font.GothamBold
+PlayerUser_29.Text = "Meta.lol"
+PlayerUser_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_29.TextScaled = true
+PlayerUser_29.TextSize = 14.000
+PlayerUser_29.TextWrapped = true
+PlayerUser_29.TextXAlignment = Enum.TextXAlignment.Left
+
+PlayerUser_30.Name = "PlayerUser"
+PlayerUser_30.Parent = Streamable
+PlayerUser_30.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_30.BackgroundTransparency = 1.000
+PlayerUser_30.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_30.BorderSizePixel = 0
+PlayerUser_30.Position = UDim2.new(2.09905982, 0, 0.132777244, 0)
+PlayerUser_30.Size = UDim2.new(1.66243637, 0, 0.0392205566, 0)
+PlayerUser_30.Font = Enum.Font.GothamBold
+PlayerUser_30.Text = "ACTIVE"
+PlayerUser_30.TextColor3 = Color3.fromRGB(0, 255, 21)
+PlayerUser_30.TextScaled = true
+PlayerUser_30.TextSize = 14.000
+PlayerUser_30.TextTransparency = 0.300
+PlayerUser_30.TextWrapped = true
+PlayerUser_30.TextXAlignment = Enum.TextXAlignment.Left
+
+CamGo.Name = "CamGo"
+CamGo.Parent = Streamable
+CamGo.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+CamGo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CamGo.BorderSizePixel = 0
+CamGo.Position = UDim2.new(0.0707600936, 0, 0.78882581, 0)
+CamGo.Size = UDim2.new(0, 119, 0, 50)
+
+PlayerUser_31.Name = "PlayerUser"
+PlayerUser_31.Parent = CamGo
+PlayerUser_31.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_31.BackgroundTransparency = 1.000
+PlayerUser_31.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_31.BorderSizePixel = 0
+PlayerUser_31.Position = UDim2.new(1.81460845, 0, 0.454903096, 0)
+PlayerUser_31.Size = UDim2.new(1.66243637, 0, -0.424905688, 0)
+PlayerUser_31.Font = Enum.Font.GothamBold
+PlayerUser_31.Text = "Cam Lock"
+PlayerUser_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_31.TextScaled = true
+PlayerUser_31.TextSize = 14.000
+PlayerUser_31.TextWrapped = true
+PlayerUser_31.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageButton_6.Parent = Streamable
+ImageButton_6.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+ImageButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_6.BorderSizePixel = 0
+ImageButton_6.Position = UDim2.new(0.673623264, 0, 0.779232979, 0)
+ImageButton_6.Size = UDim2.new(0, 123, 0, 50)
+
+PlayerUser_32.Name = "PlayerUser"
+PlayerUser_32.Parent = ImageButton_6
+PlayerUser_32.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_32.BackgroundTransparency = 1.000
+PlayerUser_32.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_32.BorderSizePixel = 0
+PlayerUser_32.Position = UDim2.new(1.74006474, 0, 0.474903703, 0)
+PlayerUser_32.Size = UDim2.new(1.66243637, 0, -0.384905666, 0)
+PlayerUser_32.Font = Enum.Font.GothamBold
+PlayerUser_32.Text = "Home"
+PlayerUser_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_32.TextScaled = true
+PlayerUser_32.TextSize = 14.000
+PlayerUser_32.TextWrapped = true
+PlayerUser_32.TextXAlignment = Enum.TextXAlignment.Left
+
+Cframe_2.Name = "Cframe"
+Cframe_2.Parent = External
+Cframe_2.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Cframe_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cframe_2.BorderSizePixel = 0
+Cframe_2.Position = UDim2.new(0.220980346, 0, 0.217313796, 0)
+Cframe_2.Size = UDim2.new(0, 474, 0, 400)
+Cframe_2.Visible = false
+
+UICorner_19.CornerRadius = UDim.new(0, 1)
+UICorner_19.Parent = Cframe_2
+
+MainFrame_4.Name = "MainFrame"
+MainFrame_4.Parent = Cframe_2
+MainFrame_4.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+MainFrame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame_4.BorderSizePixel = 0
+MainFrame_4.Position = UDim2.new(0.0370048173, 0, 0.167387545, 0)
+MainFrame_4.Size = UDim2.new(0, 438, 0, 319)
+
+UICorner_20.CornerRadius = UDim.new(0, 1)
+UICorner_20.Parent = MainFrame_4
+
+SigmaLabel_2.Name = "SigmaLabel"
+SigmaLabel_2.Parent = MainFrame_4
+SigmaLabel_2.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+SigmaLabel_2.BorderColor3 = Color3.fromRGB(157, 157, 157)
+SigmaLabel_2.BorderSizePixel = 0
+SigmaLabel_2.Position = UDim2.new(0.0365296789, 0, 0.596049607, 0)
+SigmaLabel_2.Size = UDim2.new(0, 403, 0, 50)
+SigmaLabel_2.Font = Enum.Font.GothamBold
+SigmaLabel_2.Text = "Cframe speed status"
+SigmaLabel_2.TextColor3 = Color3.fromRGB(225, 225, 225)
+SigmaLabel_2.TextSize = 20.000
+
+Enable_2.Name = "Enable"
+Enable_2.Parent = MainFrame_4
+Enable_2.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Enable_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Enable_2.BorderSizePixel = 0
+Enable_2.Position = UDim2.new(0.0469798259, 0, 0.0432174467, 0)
+Enable_2.Size = UDim2.new(0, 181, 0, 50)
+
+PlayerUser_33.Name = "PlayerUser"
+PlayerUser_33.Parent = Enable_2
+PlayerUser_33.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_33.BackgroundTransparency = 1.000
+PlayerUser_33.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_33.BorderSizePixel = 0
+PlayerUser_33.Position = UDim2.new(1.74006474, 0, 0.494903713, 0)
+PlayerUser_33.Size = UDim2.new(1.66243637, 0, -0.424905688, 0)
+PlayerUser_33.Font = Enum.Font.GothamBold
+PlayerUser_33.Text = "Cframe speed"
+PlayerUser_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_33.TextScaled = true
+PlayerUser_33.TextSize = 14.000
+PlayerUser_33.TextWrapped = true
+PlayerUser_33.TextXAlignment = Enum.TextXAlignment.Left
+
+Applychanges_2.Name = "Applychanges"
+Applychanges_2.Parent = MainFrame_4
+Applychanges_2.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Applychanges_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Applychanges_2.BorderSizePixel = 0
+Applychanges_2.Position = UDim2.new(0.49412027, 0, 0.232261926, 0)
+Applychanges_2.Size = UDim2.new(0, 194, 0, 50)
+
+PlayerUser_34.Name = "PlayerUser"
+PlayerUser_34.Parent = Applychanges_2
+PlayerUser_34.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_34.BackgroundTransparency = 1.000
+PlayerUser_34.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_34.BorderSizePixel = 0
+PlayerUser_34.Position = UDim2.new(1.7496556, 0, 0.494903713, 0)
+PlayerUser_34.Size = UDim2.new(1.66243637, 0, -0.384905666, 0)
+PlayerUser_34.Font = Enum.Font.GothamBold
+PlayerUser_34.Text = "Apply changes"
+PlayerUser_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_34.TextScaled = true
+PlayerUser_34.TextSize = 14.000
+PlayerUser_34.TextWrapped = true
+PlayerUser_34.TextXAlignment = Enum.TextXAlignment.Left
+
+pedophile_2.Name = "pedophile"
+pedophile_2.Parent = MainFrame_4
+pedophile_2.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+pedophile_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pedophile_2.BorderSizePixel = 0
+pedophile_2.Position = UDim2.new(0.495433778, 0, 0.0411513746, 0)
+pedophile_2.Size = UDim2.new(0, 179, 0, 50)
+pedophile_2.Font = Enum.Font.SourceSansBold
+pedophile_2.Text = "Speed"
+pedophile_2.TextColor3 = Color3.fromRGB(152, 152, 152)
+pedophile_2.TextSize = 14.000
+
+Smooth_2.Name = "Smooth"
+Smooth_2.Parent = MainFrame_4
+Smooth_2.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Smooth_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Smooth_2.BorderSizePixel = 0
+Smooth_2.Position = UDim2.new(0.0228310507, 0, 0.242862806, 0)
+Smooth_2.Size = UDim2.new(0, 179, 0, 46)
+Smooth_2.Font = Enum.Font.SourceSansBold
+Smooth_2.Text = "Height"
+Smooth_2.TextColor3 = Color3.fromRGB(152, 152, 152)
+Smooth_2.TextSize = 14.000
+
+PlayerStatus_4.Name = "PlayerStatus"
+PlayerStatus_4.Parent = Cframe_2
+PlayerStatus_4.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+PlayerStatus_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerStatus_4.BorderSizePixel = 0
+PlayerStatus_4.Position = UDim2.new(0.0348952413, 0, 0.0224690307, 0)
+PlayerStatus_4.Size = UDim2.new(0, 438, 0, 52)
+
+UICorner_21.CornerRadius = UDim.new(0, 1)
+UICorner_21.Parent = PlayerStatus_4
+
+PlayerUser_35.Name = "PlayerUser"
+PlayerUser_35.Parent = Cframe_2
+PlayerUser_35.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_35.BackgroundTransparency = 1.000
+PlayerUser_35.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_35.BorderSizePixel = 0
+PlayerUser_35.Position = UDim2.new(2.0818572, 0, 0.0932101607, 0)
+PlayerUser_35.Size = UDim2.new(1.66243637, 0, 0.0550935715, 0)
+PlayerUser_35.Font = Enum.Font.GothamBold
+PlayerUser_35.Text = "Meta.lol"
+PlayerUser_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_35.TextScaled = true
+PlayerUser_35.TextSize = 14.000
+PlayerUser_35.TextWrapped = true
+PlayerUser_35.TextXAlignment = Enum.TextXAlignment.Left
+
+PlayerUser_36.Name = "PlayerUser"
+PlayerUser_36.Parent = Cframe_2
+PlayerUser_36.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_36.BackgroundTransparency = 1.000
+PlayerUser_36.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_36.BorderSizePixel = 0
+PlayerUser_36.Position = UDim2.new(2.09905982, 0, 0.132777244, 0)
+PlayerUser_36.Size = UDim2.new(1.66243637, 0, 0.0392205566, 0)
+PlayerUser_36.Font = Enum.Font.GothamBold
+PlayerUser_36.Text = "ACTIVE"
+PlayerUser_36.TextColor3 = Color3.fromRGB(0, 255, 21)
+PlayerUser_36.TextScaled = true
+PlayerUser_36.TextSize = 14.000
+PlayerUser_36.TextTransparency = 0.300
+PlayerUser_36.TextWrapped = true
+PlayerUser_36.TextXAlignment = Enum.TextXAlignment.Left
+
+CamGo_2.Name = "CamGo"
+CamGo_2.Parent = Cframe_2
+CamGo_2.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+CamGo_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CamGo_2.BorderSizePixel = 0
+CamGo_2.Position = UDim2.new(0.0707600936, 0, 0.78882581, 0)
+CamGo_2.Size = UDim2.new(0, 119, 0, 50)
+
+PlayerUser_37.Name = "PlayerUser"
+PlayerUser_37.Parent = CamGo_2
+PlayerUser_37.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_37.BackgroundTransparency = 1.000
+PlayerUser_37.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_37.BorderSizePixel = 0
+PlayerUser_37.Position = UDim2.new(1.81460845, 0, 0.454903096, 0)
+PlayerUser_37.Size = UDim2.new(1.66243637, 0, -0.424905688, 0)
+PlayerUser_37.Font = Enum.Font.GothamBold
+PlayerUser_37.Text = "Cam Lock"
+PlayerUser_37.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_37.TextScaled = true
+PlayerUser_37.TextSize = 14.000
+PlayerUser_37.TextWrapped = true
+PlayerUser_37.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageButton_7.Parent = Cframe_2
+ImageButton_7.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+ImageButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_7.BorderSizePixel = 0
+ImageButton_7.Position = UDim2.new(0.673623264, 0, 0.779232979, 0)
+ImageButton_7.Size = UDim2.new(0, 123, 0, 50)
+
+PlayerUser_38.Name = "PlayerUser"
+PlayerUser_38.Parent = ImageButton_7
+PlayerUser_38.AnchorPoint = Vector2.new(1, 0.5)
+PlayerUser_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_38.BackgroundTransparency = 1.000
+PlayerUser_38.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerUser_38.BorderSizePixel = 0
+PlayerUser_38.Position = UDim2.new(1.74006474, 0, 0.474903703, 0)
+PlayerUser_38.Size = UDim2.new(1.66243637, 0, -0.384905666, 0)
+PlayerUser_38.Font = Enum.Font.GothamBold
+PlayerUser_38.Text = "Home"
+PlayerUser_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUser_38.TextScaled = true
+PlayerUser_38.TextSize = 14.000
+PlayerUser_38.TextWrapped = true
+PlayerUser_38.TextXAlignment = Enum.TextXAlignment.Left
+
+-- Scripts:
+
+local function BISO_fake_script() -- HideUi.LocalScript 
+	local script = Instance.new('LocalScript', HideUi)
+
+	local hideUIButton = script.Parent -- The HideUI button (ImageButton)
+	local mainFrame = hideUIButton.Parent -- The Main frame (parent of the button)
+	local mainFrameParent = mainFrame.Parent -- MainFrame, the parent of Main
+	local noteLabel = mainFrameParent:FindFirstChild("Note") -- Find the Note label in MainFrame
+	
+	-- Check if the Note label exists
+	if noteLabel then
+		-- When the HideUI button is clicked
+		hideUIButton.MouseButton1Click:Connect(function()
+			print("HideUI button clicked!") -- Debug message to confirm click
+			noteLabel.Visible = true -- Show the TextLabel (Note)
+			task.wait(2) -- Wait for 2 seconds
+			noteLabel.Visible = false -- Hide the TextLabel again
+		end)
+	else
+		warn("Note TextLabel not found!") -- Warn if the Note label isn't found
+	end
+	
+end
+coroutine.wrap(BISO_fake_script)()
+local function URZSIIS_fake_script() -- Main.Silent 
+	local script = Instance.new('LocalScript', Main)
+
+	local frame = script.Parent -- The frame to be dragged
+	local dragging = false
+	local dragInput, dragStart, startPos
+	
+	-- Function to update frame position
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(
+			startPos.X.Scale,
+			startPos.X.Offset + delta.X,
+			startPos.Y.Scale,
+			startPos.Y.Offset + delta.Y
+		)
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+		if dragging and input == dragInput then
+			update(input)
+		end
+	end)
+	
+end
+coroutine.wrap(URZSIIS_fake_script)()
+local function UPTEDJI_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local player = game.Players.LocalPlayer
+	local playerGui = player:WaitForChild("PlayerGui")
+	local screenGui = playerGui:WaitForChild("External") -- Assuming it's under 'External' ScreenGui
+	local playerIcon = screenGui:WaitForChild("PlayerIcon") -- ImageLabel for the character's avatar
+	local playerUser = screenGui:WaitForChild("PlayerUser") -- TextLabel for the player's username
+	
+	-- Function to update the PlayerIcon with the player's avatar
+	local function updatePlayerIcon()
+		local userId = player.UserId
+		local avatarUrl = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. userId .. "&width=150&height=150&format=png"
+	
+		-- Set the avatar image for the PlayerIcon
+		playerIcon.Image = avatarUrl
+	end
+	
+	-- Function to update the PlayerUser with the player's username
+	local function updatePlayerUsername()
+		playerUser.Text = player.Name -- Set the PlayerUser Text to the player's username
+	end
+	
+	-- Update the UI when the game starts
+	updatePlayerIcon()
+	updatePlayerUsername()
+	
+end
+coroutine.wrap(UPTEDJI_fake_script)()
+local function LNEAKPN_fake_script() -- Camlock.LocalScript 
+	local script = Instance.new('LocalScript', Camlock)
+
+	-- LocalScript inside the EspButton
+	
+	local button = script.Parent
+	local Main = button.Parent -- The parent frame is StartingFrame
+	local CamLockGui = game.Players.LocalPlayer.PlayerGui.External:WaitForChild("CamLockGui") -- Reference to the EspFrame
+	
+	-- Function to toggle visibility
+	local function toggleVisibility()
+		Main.Visible = false
+		CamLockGui.Visible = true
+	end
+	
+	-- Connect the function to the button click event
+	button.MouseButton1Click:Connect(toggleVisibility)
+	
+end
+coroutine.wrap(LNEAKPN_fake_script)()
+local function YBIJA_fake_script() -- Cframe.LocalScript 
+	local script = Instance.new('LocalScript', Cframe)
+
+	-- LocalScript inside the EspButton
+	
+	local button = script.Parent
+	local Main = button.Parent -- The parent frame is StartingFrame
+	local Cframe = game.Players.LocalPlayer.PlayerGui.External:WaitForChild("Cframe") -- Reference to the EspFrame
+	
+	-- Function to toggle visibility
+	local function toggleVisibility()
+		Main.Visible = false
+		Cframe.Visible = true
+	end
+	
+	-- Connect the function to the button click event
+	button.MouseButton1Click:Connect(toggleVisibility)
+	
+end
+coroutine.wrap(YBIJA_fake_script)()
+local function TMPHF_fake_script() -- Key.Main 
+	local script = Instance.new('LocalScript', Key)
+
+	local player = game.Players.LocalPlayer
+	local screenGui = player:WaitForChild("PlayerGui"):WaitForChild("External") 
+	local keyUI = screenGui:WaitForChild("Key") 
+	local debugUI = screenGui:WaitForChild("Main") 
+	local keyTextBox = keyUI:WaitForChild("TextBox") 
+	local submitButton = keyUI:WaitForChild("test")
+	
+	
+	local correctKey = "CRACKED"
+	local correctKey = "uwu"
+	
+	
+	
+	local whitelist = {
+		[3695065082] = true, 
+		[1697490594] = true, 
+	}
+	
+	
+	local function isPlayerWhitelisted()
+		return whitelist[player.UserId] ~= nil
+	end
+	
+	
+	local function checkKey()
+		if not isPlayerWhitelisted() then
+			
+			keyUI.Visible = false
+			debugUI.Visible = false
+			return
+		end
+	
+		local enteredKey = keyTextBox.Text
+	
+		if enteredKey == correctKey then
+			keyUI.Visible = false
+			debugUI.Visible = true
+		else
+			keyTextBox.Text = ""
+			keyTextBox.PlaceholderText = "Incorrect key. Try again!"
+			keyTextBox.PlaceholderColor3 = Color3.fromRGB(255, 0, 0)
+		end
+	end
+	
+	
+	local function toggleKeyUI()
+		if not isPlayerWhitelisted() then
+			
+			return
+		end
+	
+		keyUI.Visible = not keyUI.Visible
+	end
+	
+	
+	if not isPlayerWhitelisted() then
+		keyUI.Visible = false
+		debugUI.Visible = false
+	else
+		keyUI.Visible = true 
+	end
+	
+	
+	submitButton.MouseButton1Click:Connect(checkKey)
+	
+	
+	game:GetService("UserInputService").InputBegan:Connect(function(input, gameProcessed)
+		
+		if input.KeyCode == Enum.KeyCode.Pause and not gameProcessed then
+			toggleKeyUI()
+		end
+	end)
+	
+end
+coroutine.wrap(TMPHF_fake_script)()
+local function HCPL_fake_script() -- SKiibidi.LocalScript 
+	local script = Instance.new('LocalScript', SKiibidi)
+
+	-- Services
+	local Players = game:GetService("Players")
+	local UserInputService = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	
+	-- UI Elements
+	local player = Players.LocalPlayer
+	local screenGui = player:WaitForChild("PlayerGui"):WaitForChild("External")
+	local CamLockGui = screenGui:WaitForChild("CamLockGui")
+	local MainFrame = CamLockGui:WaitForChild("MainFrame")
+	local toggleButton = MainFrame:WaitForChild("SKiibidi")
+	local changeKeyButton = MainFrame:WaitForChild("ChangeKey")
+	local predictionTextBox = MainFrame:WaitForChild("wowdobdob")
+	local applyPredictionButton = MainFrame:WaitForChild("ApplyPred")
+	local statusLabel = MainFrame:WaitForChild("StatusLabel")
+	
+	-- Script state
+	local scriptEnabled = false
+	local camlockKey = Enum.KeyCode.Q
+	local camlockEnabled = false
+	local lockedTarget = nil -- Currently locked target
+	
+	-- Prediction settings
+	local predictionFactor = 0.10 -- Default prediction factor
+	
+	-- Helper functions
+	local function updateStatus()
+		if scriptEnabled then
+			if lockedTarget then
+				statusLabel.Text = "Camlock: Locked onto " .. lockedTarget.Name .. " | Prediction: " .. tostring(predictionFactor)
+			elseif camlockEnabled then
+				statusLabel.Text = "Camlock Enabled. Press " .. camlockKey.Name .. " to lock."
+			else
+				statusLabel.Text = "Camlock Disabled. Press " .. camlockKey.Name .. " to enable."
+			end
+		else
+			statusLabel.Text = "Camlock not loaded."
+		end
+	end
+	
+	local function toggleScript()
+		scriptEnabled = not scriptEnabled
+		camlockEnabled = false
+		lockedTarget = nil -- Reset the locked target
+		updateStatus()
+	end
+	
+	local function changeCamlockKey()
+		statusLabel.Text = "Press any key to set as Camlock toggle key..."
+		local keyListener
+		keyListener = UserInputService.InputBegan:Connect(function(input, gameProcessed)
+			if not gameProcessed and input.UserInputType == Enum.UserInputType.Keyboard then
+				camlockKey = input.KeyCode
+				statusLabel.Text = "Camlock Key Changed to: " .. camlockKey.Name
+				keyListener:Disconnect()
+			end
+		end)
+	end
+	
+	-- Function to apply the prediction factor
+	local function applyPredictionFactor()
+		local enteredText = predictionTextBox.Text
+		local newPrediction = tonumber(enteredText)
+		if newPrediction and newPrediction > 0 then
+			predictionFactor = newPrediction
+			statusLabel.Text = "Prediction Factor Updated: " .. tostring(predictionFactor)
+		else
+			statusLabel.Text = "Invalid Prediction Factor! Enter a positive number."
+		end
+	end
+	
+	-- Get the closest player to the crosshair
+	local function getClosest()
+		local camera = workspace.CurrentCamera
+		local closestPlayer
+		local shortestDistance = math.huge
+	
+		for _, v in pairs(Players:GetPlayers()) do
+			if v ~= player and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health > 0 then
+				local pos = camera:WorldToViewportPoint(v.Character.HumanoidRootPart.Position)
+				local mousePos = Vector2.new(player:GetMouse().X, player:GetMouse().Y)
+				local magnitude = (Vector2.new(pos.X, pos.Y) - mousePos).magnitude
+	
+				if magnitude < shortestDistance then
+					closestPlayer = v
+					shortestDistance = magnitude
+				end
+			end
+		end
+	
+		return closestPlayer
+	end
+	
+	-- Predict the target's future position
+	local function predictPosition(target)
+		if target and target.Character and target.Character:FindFirstChild("HumanoidRootPart") then
+			local rootPart = target.Character.HumanoidRootPart
+			local velocity = rootPart.Velocity
+			local predictedPosition = rootPart.Position + (velocity * predictionFactor)
+			return predictedPosition
+		end
+		return nil
+	end
+	
+	-- Handle input for toggling and locking/unlocking targets
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if not gameProcessed and input.KeyCode == camlockKey then
+			if scriptEnabled then
+				if lockedTarget then
+					-- Unlock the current target
+					lockedTarget = nil
+					statusLabel.Text = "Unlocked target."
+				else
+					-- Lock onto the closest target to the mouse
+					local target = getClosest()
+					if target then
+						lockedTarget = target
+						statusLabel.Text = "Locked onto target: " .. lockedTarget.Name
+					else
+						statusLabel.Text = "No valid target found."
+					end
+				end
+				updateStatus()
+			end
+		end
+	end)
+	
+	-- Main loop for camlock
+	RunService.RenderStepped:Connect(function()
+		if scriptEnabled and lockedTarget then
+			local camera = workspace.CurrentCamera
+			local predictedPosition = predictPosition(lockedTarget)
+			if predictedPosition then
+				camera.CFrame = CFrame.new(camera.CFrame.Position, predictedPosition)
+			end
+		end
+	end)
+	
+	-- Connect functions to UI buttons
+	toggleButton.MouseButton1Click:Connect(toggleScript)
+	changeKeyButton.MouseButton1Click:Connect(changeCamlockKey)
+	applyPredictionButton.MouseButton1Click:Connect(applyPredictionFactor)
+	
+	-- Initialize status
+	updateStatus()
+	
+end
+coroutine.wrap(HCPL_fake_script)()
+local function PAAE_fake_script() -- CamLockGui.Silent 
+	local script = Instance.new('LocalScript', CamLockGui)
+
+	local frame = script.Parent -- The frame to be dragged
+	local dragging = false
+	local dragInput, dragStart, startPos
+	
+	-- Function to update frame position
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(
+			startPos.X.Scale,
+			startPos.X.Offset + delta.X,
+			startPos.Y.Scale,
+			startPos.Y.Offset + delta.Y
+		)
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+		if dragging and input == dragInput then
+			update(input)
+		end
+	end)
+	
+end
+coroutine.wrap(PAAE_fake_script)()
+local function FFDXJZ_fake_script() -- CamLockGui.LocalScript 
+	local script = Instance.new('LocalScript', CamLockGui)
+
+	local player = game.Players.LocalPlayer
+	local playerGui = player:WaitForChild("PlayerGui")
+	local screenGui = playerGui:WaitForChild("External") -- Assuming it's under 'External' ScreenGui
+	local playerIcon = screenGui:WaitForChild("PlayerIcon") -- ImageLabel for the character's avatar
+	local playerUser = screenGui:WaitForChild("PlayerUser") -- TextLabel for the player's username
+	
+	-- Function to update the PlayerIcon with the player's avatar
+	local function updatePlayerIcon()
+		local userId = player.UserId
+		local avatarUrl = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. userId .. "&width=150&height=150&format=png"
+	
+		-- Set the avatar image for the PlayerIcon
+		playerIcon.Image = avatarUrl
+	end
+	
+	-- Function to update the PlayerUser with the player's username
+	local function updatePlayerUsername()
+		playerUser.Text = player.Name -- Set the PlayerUser Text to the player's username
+	end
+	
+	-- Update the UI when the game starts
+	updatePlayerIcon()
+	updatePlayerUsername()
+	
+end
+coroutine.wrap(FFDXJZ_fake_script)()
+local function PNRTYR_fake_script() -- ImageButton_4.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_4)
+
+	-- LocalScript inside the EspButton
+	
+	local button = script.Parent
+	local CamLockGui = button.Parent -- The parent frame is StartingFrame
+	local Streamable = game.Players.LocalPlayer.PlayerGui.External:WaitForChild("Streamable") -- Reference to the EspFrame
+	
+	-- Function to toggle visibility
+	local function toggleVisibility()
+		CamLockGui.Visible = false
+		Streamable.Visible = true
+	end
+	
+	-- Connect the function to the button click event
+	button.MouseButton1Click:Connect(toggleVisibility)
+	
+end
+coroutine.wrap(PNRTYR_fake_script)()
+local function POXX_fake_script() -- ImageButton_5.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_5)
+
+	-- LocalScript inside the EspButton
+	
+	local button = script.Parent
+	local CamLockGui = button.Parent -- The parent frame is StartingFrame
+	local Main = game.Players.LocalPlayer.PlayerGui.External:WaitForChild("Main") -- Reference to the EspFrame
+	
+	-- Function to toggle visibility
+	local function toggleVisibility()
+		CamLockGui.Visible = false
+		Main.Visible = true
+	end
+	
+	-- Connect the function to the button click event
+	button.MouseButton1Click:Connect(toggleVisibility)
+	
+end
+coroutine.wrap(POXX_fake_script)()
+local function YKIXVJN_fake_script() -- Enable.LocalScript 
+	local script = Instance.new('LocalScript', Enable)
+
+	-- Services
+	local Players = game:GetService("Players")
+	local UserInputService = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	
+	-- UI Elements
+	local player = Players.LocalPlayer
+	local screenGui = player:WaitForChild("PlayerGui"):WaitForChild("External")
+	local Streamable = screenGui:WaitForChild("Streamable")
+	local MainFrame = Streamable:WaitForChild("MainFrame")
+	local toggleButton = MainFrame:WaitForChild("Enable")
+	local changeKeyButton = MainFrame:WaitForChild("Keycheng")
+	local predictionTextBox = MainFrame:WaitForChild("pedophile")
+	local smoothnessTextBox = MainFrame:WaitForChild("Smooth")
+	local applySettingsButton = MainFrame:WaitForChild("Applychanges")
+	local statusLabel = MainFrame:WaitForChild("SigmaLabel")
+	
+	-- Script state
+	local scriptEnabled = false
+	local aimbotKey = Enum.KeyCode.Q
+	local aimbotEnabled = false
+	local predictionTime = 0.1
+	local smoothness = 0.1
+	local lockedTarget = nil -- The current target locked onto
+	
+	-- Update the status label
+	local function updateStatus()
+		if scriptEnabled then
+			if lockedTarget then
+				statusLabel.Text = "Locked onto target | Key: " .. aimbotKey.Name
+			elseif aimbotEnabled then
+				statusLabel.Text = "Aimbot Ready | Key: " .. aimbotKey.Name
+			else
+				statusLabel.Text = "Aimbot Disabled | Key: " .. aimbotKey.Name
+			end
+			statusLabel.Text = statusLabel.Text .. " | Prediction: " .. tostring(predictionTime) .. " | Smoothness: " .. tostring(smoothness)
+		else
+			statusLabel.Text = "Aimbot Not Loaded"
+		end
+	end
+	
+	-- Toggle script activation
+	local function toggleScript()
+		scriptEnabled = not scriptEnabled
+		aimbotEnabled = false
+		lockedTarget = nil -- Reset the locked target when disabling the script
+		updateStatus()
+	end
+	
+	-- Change the aimbot key
+	local function changeAimbotKey()
+		statusLabel.Text = "Press any key to set as aimbot toggle key..."
+		local keyListener
+		keyListener = UserInputService.InputBegan:Connect(function(input, gameProcessed)
+			if not gameProcessed and input.UserInputType == Enum.UserInputType.Keyboard then
+				aimbotKey = input.KeyCode
+				statusLabel.Text = "Aimbot Key Changed to: " .. aimbotKey.Name
+				keyListener:Disconnect()
+			end
+		end)
+	end
+	
+	-- Apply new settings from TextBox inputs
+	local function applySettings()
+		local newPredictionTime = tonumber(predictionTextBox.Text)
+		local newSmoothness = tonumber(smoothnessTextBox.Text)
+	
+		if newPredictionTime and newPredictionTime > 0 then
+			predictionTime = newPredictionTime
+		else
+			statusLabel.Text = "Invalid Prediction Time! Enter a positive number."
+			return
+		end
+	
+		if newSmoothness and newSmoothness >= 0 and newSmoothness <= 1 then
+			smoothness = newSmoothness
+		else
+			statusLabel.Text = "Invalid Smoothness! Enter a number between 0 and 1."
+			return
+		end
+	
+		statusLabel.Text = "Settings Updated: Prediction Time = " .. tostring(predictionTime) .. ", Smoothness = " .. tostring(smoothness)
+	end
+	
+	-- Get the closest player to the crosshair
+	local function getClosest()
+		local camera = workspace.CurrentCamera
+		local closestPlayer
+		local shortestDistance = math.huge
+	
+		for _, v in pairs(Players:GetPlayers()) do
+			if v ~= player and v.Character and v.Character:FindFirstChild("HumanoidRootPart") then
+				local pos = camera:WorldToViewportPoint(v.Character.HumanoidRootPart.Position)
+				local mousePos = Vector2.new(player:GetMouse().X, player:GetMouse().Y)
+				local magnitude = (Vector2.new(pos.X, pos.Y) - mousePos).magnitude
+	
+				if magnitude < shortestDistance then
+					closestPlayer = v
+					shortestDistance = magnitude
+				end
+			end
+		end
+	
+		return closestPlayer
+	end
+	
+	-- Predict the target's future position
+	local function predictTargetPosition(target)
+		if not target or not target.Character or not target.Character:FindFirstChild("HumanoidRootPart") then
+			return nil
+		end
+	
+		local humanoidRootPart = target.Character:FindFirstChild("HumanoidRootPart")
+		local velocity = humanoidRootPart.AssemblyLinearVelocity
+		local predictedPosition = humanoidRootPart.Position + (velocity * predictionTime)
+		return predictedPosition
+	end
+	
+	-- Smoothly interpolate camera position
+	local function aimAtTarget(target)
+		local camera = workspace.CurrentCamera
+		if target and target.Character and target.Character:FindFirstChild("HumanoidRootPart") then
+			local predictedPosition = predictTargetPosition(target)
+			if predictedPosition then
+				local targetCFrame = CFrame.new(camera.CFrame.Position, predictedPosition)
+				camera.CFrame = camera.CFrame:Lerp(targetCFrame, smoothness)
+			end
+		end
+	end
+	
+	-- Handle input for toggling and locking/unlocking targets
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if not gameProcessed and input.KeyCode == aimbotKey then
+			if scriptEnabled then
+				if lockedTarget then
+					-- Unlock the current target
+					lockedTarget = nil
+					statusLabel.Text = "Unlocked target."
+				else
+					-- Lock onto the closest target to the mouse
+					lockedTarget = getClosest()
+					if lockedTarget then
+						statusLabel.Text = "Locked onto target: " .. lockedTarget.Name
+					else
+						statusLabel.Text = "No valid target found."
+					end
+				end
+			end
+		end
+	end)
+	
+	-- Main loop for aiming
+	RunService.RenderStepped:Connect(function()
+		if scriptEnabled and lockedTarget then
+			aimAtTarget(lockedTarget)
+		end
+	end)
+	
+	-- Connect functions to UI buttons
+	toggleButton.MouseButton1Click:Connect(toggleScript)
+	changeKeyButton.MouseButton1Click:Connect(changeAimbotKey)
+	applySettingsButton.MouseButton1Click:Connect(applySettings)
+	
+	-- Initialize status
+	updateStatus()
+	
+end
+coroutine.wrap(YKIXVJN_fake_script)()
+local function WEGD_fake_script() -- Streamable.Silent 
+	local script = Instance.new('LocalScript', Streamable)
+
+	local frame = script.Parent -- The frame to be dragged
+	local dragging = false
+	local dragInput, dragStart, startPos
+	
+	-- Function to update frame position
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(
+			startPos.X.Scale,
+			startPos.X.Offset + delta.X,
+			startPos.Y.Scale,
+			startPos.Y.Offset + delta.Y
+		)
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+		if dragging and input == dragInput then
+			update(input)
+		end
+	end)
+	
+end
+coroutine.wrap(WEGD_fake_script)()
+local function SGMNIUD_fake_script() -- Streamable.LocalScript 
+	local script = Instance.new('LocalScript', Streamable)
+
+	local player = game.Players.LocalPlayer
+	local playerGui = player:WaitForChild("PlayerGui")
+	local screenGui = playerGui:WaitForChild("External") -- Assuming it's under 'External' ScreenGui
+	local playerIcon = screenGui:WaitForChild("PlayerIcon") -- ImageLabel for the character's avatar
+	local playerUser = screenGui:WaitForChild("PlayerUser") -- TextLabel for the player's username
+	
+	-- Function to update the PlayerIcon with the player's avatar
+	local function updatePlayerIcon()
+		local userId = player.UserId
+		local avatarUrl = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. userId .. "&width=150&height=150&format=png"
+	
+		-- Set the avatar image for the PlayerIcon
+		playerIcon.Image = avatarUrl
+	end
+	
+	-- Function to update the PlayerUser with the player's username
+	local function updatePlayerUsername()
+		playerUser.Text = player.Name -- Set the PlayerUser Text to the player's username
+	end
+	
+	-- Update the UI when the game starts
+	updatePlayerIcon()
+	updatePlayerUsername()
+	
+end
+coroutine.wrap(SGMNIUD_fake_script)()
+local function TKYUYJ_fake_script() -- CamGo.LocalScript 
+	local script = Instance.new('LocalScript', CamGo)
+
+	-- LocalScript inside the EspButton
+	
+	local button = script.Parent
+	local Streamable = button.Parent -- The parent frame is StartingFrame
+	local CamLockGui = game.Players.LocalPlayer.PlayerGui.External:WaitForChild("CamLockGui") -- Reference to the EspFrame
+	
+	-- Function to toggle visibility
+	local function toggleVisibility()
+		Streamable.Visible = false
+		CamLockGui.Visible = true
+	end
+	
+	-- Connect the function to the button click event
+	button.MouseButton1Click:Connect(toggleVisibility)
+	
+end
+coroutine.wrap(TKYUYJ_fake_script)()
+local function UYIJZ_fake_script() -- ImageButton_6.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_6)
+
+	-- LocalScript inside the EspButton
+	
+	local button = script.Parent
+	local Streamable = button.Parent -- The parent frame is StartingFrame
+	local Main = game.Players.LocalPlayer.PlayerGui.External:WaitForChild("Main") -- Reference to the EspFrame
+	
+	-- Function to toggle visibility
+	local function toggleVisibility()
+		Streamable.Visible = false
+		Main.Visible = true
+	end
+	
+	-- Connect the function to the button click event
+	button.MouseButton1Click:Connect(toggleVisibility)
+	
+end
+coroutine.wrap(UYIJZ_fake_script)()
+local function QICKR_fake_script() -- Enable_2.LocalScript 
+	local script = Instance.new('LocalScript', Enable_2)
+
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	local rootPart = character:WaitForChild("HumanoidRootPart")
+	
+	-- Default Settings
+	local speedMultiplier = 9
+	local altitude = nil -- Start with no altitude effect
+	local isEnabled = false
+	
+	-- UI Elements
+	local screenGui = player:WaitForChild("PlayerGui"):WaitForChild("External")
+	local Cframe = screenGui:WaitForChild("Cframe")
+	local MainFrame = Cframe:WaitForChild("MainFrame")
+	local toggleButton = MainFrame:WaitForChild("Enable") -- Button to toggle movement
+	local speedTextBox = MainFrame:WaitForChild("pedophile") -- Speed adjustment
+	local altitudeTextBox = MainFrame:WaitForChild("Smooth") -- Altitude adjustment
+	local applySettingsButton = MainFrame:WaitForChild("Applychanges")
+	local statusLabel = MainFrame:WaitForChild("SigmaLabel")
+	
+	-- Update the status label
+	local function updateStatusLabel()
+		if isEnabled then
+			statusLabel.Text = "Status: Enabled"
+			statusLabel.TextColor3 = Color3.new(0, 1, 0) -- Green
+		else
+			statusLabel.Text = "Status: Disabled"
+			statusLabel.TextColor3 = Color3.new(1, 0, 0) -- Red
+		end
+	end
+	
+	-- Toggle movement
+	toggleButton.MouseButton1Click:Connect(function()
+		isEnabled = not isEnabled
+		updateStatusLabel()
+	end)
+	
+	-- Apply speed and altitude settings
+	applySettingsButton.MouseButton1Click:Connect(function()
+		local newSpeed = tonumber(speedTextBox.Text)
+		local newAltitude = tonumber(altitudeTextBox.Text)
+	
+		if newSpeed then
+			speedMultiplier = newSpeed
+		end
+	
+		if newAltitude then
+			altitude = newAltitude
+		else
+			altitude = nil -- Reset altitude if no valid input
+		end
+	end)
+	
+	-- Movement logic
+	local function applyFasterMovement(deltaTime)
+		if isEnabled and humanoid.MoveDirection.Magnitude > 0 then
+			-- Calculate movement direction
+			local moveDirection = humanoid.MoveDirection * speedMultiplier * deltaTime
+	
+			-- Adjust position, keeping default camera behavior
+			local targetPosition = rootPart.Position + moveDirection
+			if altitude then
+				targetPosition = Vector3.new(targetPosition.X, altitude, targetPosition.Z)
+			end
+	
+			-- Move root part to the target position
+			rootPart.CFrame = CFrame.new(targetPosition)
+		end
+	end
+	
+	-- Ensure the script continues to work if the character respawns
+	player.CharacterAdded:Connect(function(newCharacter)
+		character = newCharacter
+		humanoid = character:WaitForChild("Humanoid")
+		rootPart = character:WaitForChild("HumanoidRootPart")
+	end)
+	
+	-- Connect the function to the RenderStepped event
+	RunService.RenderStepped:Connect(applyFasterMovement)
+	
+	-- Initialize the UI
+	updateStatusLabel()
+	
+end
+coroutine.wrap(QICKR_fake_script)()
+local function VIZV_fake_script() -- Cframe_2.Silent 
+	local script = Instance.new('LocalScript', Cframe_2)
+
+	local frame = script.Parent -- The frame to be dragged
+	local dragging = false
+	local dragInput, dragStart, startPos
+	
+	-- Function to update frame position
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(
+			startPos.X.Scale,
+			startPos.X.Offset + delta.X,
+			startPos.Y.Scale,
+			startPos.Y.Offset + delta.Y
+		)
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+		if dragging and input == dragInput then
+			update(input)
+		end
+	end)
+	
+end
+coroutine.wrap(VIZV_fake_script)()
+local function USIA_fake_script() -- Cframe_2.LocalScript 
+	local script = Instance.new('LocalScript', Cframe_2)
+
+	local player = game.Players.LocalPlayer
+	local playerGui = player:WaitForChild("PlayerGui")
+	local screenGui = playerGui:WaitForChild("External") -- Assuming it's under 'External' ScreenGui
+	local playerIcon = screenGui:WaitForChild("PlayerIcon") -- ImageLabel for the character's avatar
+	local playerUser = screenGui:WaitForChild("PlayerUser") -- TextLabel for the player's username
+	
+	-- Function to update the PlayerIcon with the player's avatar
+	local function updatePlayerIcon()
+		local userId = player.UserId
+		local avatarUrl = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. userId .. "&width=150&height=150&format=png"
+	
+		-- Set the avatar image for the PlayerIcon
+		playerIcon.Image = avatarUrl
+	end
+	
+	-- Function to update the PlayerUser with the player's username
+	local function updatePlayerUsername()
+		playerUser.Text = player.Name -- Set the PlayerUser Text to the player's username
+	end
+	
+	-- Update the UI when the game starts
+	updatePlayerIcon()
+	updatePlayerUsername()
+	
+end
+coroutine.wrap(USIA_fake_script)()
+local function AVNS_fake_script() -- CamGo_2.LocalScript 
+	local script = Instance.new('LocalScript', CamGo_2)
+
+	-- LocalScript inside the EspButton
+	
+	local button = script.Parent
+	local Cframe = button.Parent -- The parent frame is StartingFrame
+	local CamLockGui = game.Players.LocalPlayer.PlayerGui.External:WaitForChild("CamLockGui") -- Reference to the EspFrame
+	
+	-- Function to toggle visibility
+	local function toggleVisibility()
+		Cframe.Visible = false
+		CamLockGui.Visible = true
+	end
+	
+	-- Connect the function to the button click event
+	button.MouseButton1Click:Connect(toggleVisibility)
+	
+end
+coroutine.wrap(AVNS_fake_script)()
+local function JTDQ_fake_script() -- ImageButton_7.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton_7)
+
+	-- LocalScript inside the EspButton
+	
+	local button = script.Parent
+	local Cframe = button.Parent -- The parent frame is StartingFrame
+	local Main = game.Players.LocalPlayer.PlayerGui.External:WaitForChild("Main") -- Reference to the EspFrame
+	
+	-- Function to toggle visibility
+	local function toggleVisibility()
+		Cframe.Visible = false
+		Main.Visible = true
+	end
+	
+	-- Connect the function to the button click event
+	button.MouseButton1Click:Connect(toggleVisibility)
+	
+end
+coroutine.wrap(JTDQ_fake_script)()
